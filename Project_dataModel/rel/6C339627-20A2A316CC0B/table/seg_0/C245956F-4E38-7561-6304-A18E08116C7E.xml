@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C245956F-4E38-7561-6304-A18E08116C7E" name="GUEST">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>9ED2D390-A6A8-65FB-A332-8A73900DBF79</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GuestID" id="B7320183-CD98-FF3C-4EE4-8524969D7E16">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>F5F69B7D-9A09-C576-24DF-CA0A6DF6AF15</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="5048FB41-D481-0124-D8B7-35D62E407FDE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>655801BD-3CE0-B7E6-59F0-220DAE5298E6</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="3264D8F4-59A9-200F-C9DC-ADF95D087549">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>59F620F2-637F-13B3-13C7-FAFCEE213D41</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="2C9C7605-8D13-B69F-5D02-048BF2483311">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>7734B80A-C0C1-1980-3841-E994790A8E5F</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="BEA054B9-355C-3B43-BBE8-8AF56D204EE1">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>6CC64F2D-1CF5-6A97-47CA-DC1CEAECADE1</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C500886-A065-3E5D-769D-1EA4BAB83CD9" name="GuestPK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>43C0A1CC-6D1D-1377-64CE-5964FE3BB34D</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7320183-CD98-FF3C-4EE4-8524969D7E16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

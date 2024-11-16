@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B75C4F71-850A-760C-A803-AD48CB09073B" name="EMPLOYEE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 06:57:12 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 06:57:31 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="33CB2EDA-D98D-0E6D-1CA3-1A053F3B5E7E">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 06:59:40 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="9EA1A68A-E61C-D6AD-56BA-B568DC60D2B2">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:00:13 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="1E4794EF-8518-B163-6982-4D4FBB7BE0DF">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:00:34 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="0D69B46D-6C8A-296F-B1AA-DAB1E0959FB4">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:00:48 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Province" id="C0F061BE-B60D-A6EE-7624-D0F4704B1E74">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:01:06 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wage" id="05B0774C-D4E0-115A-2DE1-521A1A8E2F80">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:01:20 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WageType" id="6F72A641-251F-BBC3-5EDB-3B2C81AB3C18">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:01:47 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID1" id="2B7D2392-F5C5-B19D-6E89-0A898520D496">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:04:51 UTC</createdTime>
+<generatorID>AD6D3282-2286-0E0A-CE4C-9FAA59BE87D2</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BE190F5-B5A5-D41A-BD12-B8DCEA031296" name="EMPLOYEEPK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 06:58:05 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</newElementsIDs>
+<usedAttributes>
+<attributeRef>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

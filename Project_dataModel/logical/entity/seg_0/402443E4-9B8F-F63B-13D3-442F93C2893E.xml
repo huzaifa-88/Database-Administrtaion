@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="402443E4-9B8F-F63B-13D3-442F93C2893E" name="FEE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:34:35 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Fee</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FeeID" id="D38396C9-3B9E-21F9-6B5F-44CCC01E81B5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:34:58 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FeeName" id="F6B15E74-42CF-10DE-8C6E-B87DA0DDF1A5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:35:19 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FeeDescription" id="EFD41D1E-6E8C-9A3C-AEB0-A8C290962CC7">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:35:44 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateCharged" id="B7A279F1-3114-E63E-611D-280709393FE7">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:36:01 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FeeCharged" id="1D28B5F3-D3C7-E201-AA94-6436323ABD85">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:36:34 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GuestID" id="617456EA-5F95-BF2C-2CC3-DE8552664D6F">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:53:48 UTC</createdTime>
+<generatorID>39EBF691-C5E6-50EA-1045-148D72D5F694</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<referedAttribute>F5F69B7D-9A09-C576-24DF-CA0A6DF6AF15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FeeTypeID" id="807D7DC3-37A0-723B-0414-E968A87246FB">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:57:06 UTC</createdTime>
+<generatorID>0F98004F-76A8-EA88-4B7A-54E9262D7423</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<referedAttribute>B8CD606A-4009-0D3F-E224-D34545A89CAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="E5F621A6-11AC-431E-F3DE-75F2FECFEA7D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:18:29 UTC</createdTime>
+<generatorID>EFFC1C77-1494-D174-E0EF-0C42A81EF849</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
+</engineerTo>
+<referedAttribute>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F227AEE-D99C-312A-87DF-36DB04EF4B9B" name="FeePK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:41:23 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5,0F98004F-76A8-EA88-4B7A-54E9262D7423,39EBF691-C5E6-50EA-1045-148D72D5F694,EFFC1C77-1494-D174-E0EF-0C42A81EF849</newElementsIDs>
+<usedAttributes>
+<attributeRef>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5</attributeRef>
+<attributeRef>807D7DC3-37A0-723B-0414-E968A87246FB</attributeRef>
+<attributeRef>617456EA-5F95-BF2C-2CC3-DE8552664D6F</attributeRef>
+<attributeRef>E5F621A6-11AC-431E-F3DE-75F2FECFEA7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C78A17A-12D1-C596-2D24-707BD5D0B76A" name="EMPLOYEE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>B75C4F71-850A-760C-A803-AD48CB09073B</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeID" id="7A6F2209-5952-97C4-408D-04070F53F4D8">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="EDA5D4EC-BE12-779F-6C60-0973F06A952D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>33CB2EDA-D98D-0E6D-1CA3-1A053F3B5E7E</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="DB298D5A-83F0-38A9-DF8C-FCCF7070158B">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>9EA1A68A-E61C-D6AD-56BA-B568DC60D2B2</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="A575723B-B685-5BCF-859E-2A56483D5FF6">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>1E4794EF-8518-B163-6982-4D4FBB7BE0DF</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="3ECA6DE7-611F-72D3-2ED7-9624C1A6AE2E">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>0D69B46D-6C8A-296F-B1AA-DAB1E0959FB4</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="9D762293-E57F-778B-D7BC-8C0F63950A1C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>C0F061BE-B60D-A6EE-7624-D0F4704B1E74</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wage" id="75C7681C-1872-DAA9-8FDF-79E1936CD342">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>05B0774C-D4E0-115A-2DE1-521A1A8E2F80</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WageType" id="B3237F74-5604-8E6D-E95F-7913535EB185">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>6F72A641-251F-BBC3-5EDB-3B2C81AB3C18</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ManagerID" id="667F30E0-B177-1898-72EC-FB1C9C6981C9">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>2B7D2392-F5C5-B19D-6E89-0A898520D496</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CC355C7-42B2-C9B3-57C1-E80FCF83E66F" referredColumn="7A6F2209-5952-97C4-408D-04070F53F4D8"/>
+</associations>
+</Column>
+<Column name="GuestID" id="47091A9F-16BC-FED7-79EB-9994D41749A0">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>C64D24FF-6EF0-21D6-C810-921A61B0C816</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeeTypeID" id="8E95B4DE-07BB-E67B-97B0-1B35E1E078FB">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>8FF1823B-E5A7-3F0E-FA21-3BDCBA97A28E</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E81A6BB6-E010-37C2-00E9-307A21F728E0" name="EmployeePK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>5BE190F5-B5A5-D41A-BD12-B8DCEA031296</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A6F2209-5952-97C4-408D-04070F53F4D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39885734-04B3-013D-8EE7-001C62FBD07F" name="ManagerFK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:07:27 UTC</createdTime>
+<generatorID>AD6D3282-2286-0E0A-CE4C-9FAA59BE87D2</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="667F30E0-B177-1898-72EC-FB1C9C6981C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

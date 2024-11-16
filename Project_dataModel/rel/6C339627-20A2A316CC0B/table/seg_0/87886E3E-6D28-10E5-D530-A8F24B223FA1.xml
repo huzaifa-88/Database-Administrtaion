@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87886E3E-6D28-10E5-D530-A8F24B223FA1" name="FEE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>402443E4-9B8F-F63B-13D3-442F93C2893E</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<abbreviation>Fee</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FeeID" id="DCAD7140-7F9D-9878-6A52-05152D9923E2">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_FeeID</notNullConstraintName>
+</Column>
+<Column name="FeeName" id="A6A83372-2023-438F-D474-E5F7F644A9A4">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>F6B15E74-42CF-10DE-8C6E-B87DA0DDF1A5</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_FeeName</notNullConstraintName>
+</Column>
+<Column name="FeeDescription" id="01C0E3FD-683C-2A2A-6B04-5F51F562D45E">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>EFD41D1E-6E8C-9A3C-AEB0-A8C290962CC7</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateCharged" id="441FE5A7-7BB7-A794-0B92-0A03DB33AAC8">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>B7A279F1-3114-E63E-611D-280709393FE7</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_DateCharged</notNullConstraintName>
+</Column>
+<Column name="FeeCharged" id="22C7930E-1BBE-8AC6-6B4B-947A61076569">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>1D28B5F3-D3C7-E201-AA94-6436323ABD85</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_FeeCharged</notNullConstraintName>
+</Column>
+<Column name="GuestID" id="171223B6-C78C-B47E-E35B-6EAE31436BF5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>617456EA-5F95-BF2C-2CC3-DE8552664D6F</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_GUEST_GuestID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A1676859-3747-133E-8D9E-6B98C8AE024E" referredColumn="B7320183-CD98-FF3C-4EE4-8524969D7E16"/>
+</associations>
+</Column>
+<Column name="FeeTypeID" id="4F6CDB78-0C4D-C5D5-4FB6-FCD896D65E1B">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>807D7DC3-37A0-723B-0414-E968A87246FB</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FEE_FEE_TYPE_FeeTypeID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FC2C161E-FE0B-E421-2546-159E4FC6CE77" referredColumn="398208A9-E62F-31E2-9285-AD806235233B"/>
+</associations>
+</Column>
+<Column name="EmployeeID" id="F3A9D53D-A9FB-F24D-F440-C9E1F8379F48">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:18:55 UTC</createdTime>
+<generatorID>E5F621A6-11AC-431E-F3DE-75F2FECFEA7D</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE4F5BC1-4232-EE87-B4DC-7E00C5B3D75E" referredColumn="7A6F2209-5952-97C4-408D-04070F53F4D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60970D1A-4ADC-A322-C5EB-59E8B9A0DF18" name="FeePK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>2F227AEE-D99C-312A-87DF-36DB04EF4B9B</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCAD7140-7F9D-9878-6A52-05152D9923E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C7BC3E-4EE0-FCB5-7F6F-DA5ED9A74E65" name="Fee_FeeTypeFK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>0F98004F-76A8-EA88-4B7A-54E9262D7423</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6CDB78-0C4D-C5D5-4FB6-FCD896D65E1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC53DFCB-F982-EC29-295C-5E107D385EBB" name="FeeGuestFK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 16:43:20 UTC</createdTime>
+<generatorID>39EBF691-C5E6-50EA-1045-148D72D5F694</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="171223B6-C78C-B47E-E35B-6EAE31436BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0BAE746-7FF5-C84F-5084-B98B76E3CCE2" name="FeeEmployeeFK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-15 07:18:55 UTC</createdTime>
+<generatorID>EFFC1C77-1494-D174-E0EF-0C42A81EF849</generatorID>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A9D53D-A9FB-F24D-F440-C9E1F8379F48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
