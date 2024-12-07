@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1121F4E0-567D-A1B9-F020-C87CA2B8BECA" name="PRODUCT">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>5756B802-54DE-B98D-7FE6-DFDD9D0C4995</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="C51494EA-B0E9-07B2-5D83-3A5CB5959C1B">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>785E3D8A-E9D8-AD41-D00E-7CD9E4D3338E</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="CAC54704-3068-71EB-FA84-EFBBD7300804">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>9AEFBAF4-0C25-D550-838F-8329E2A5D6ED</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ListedPrice" id="796486D6-D06E-0F18-6E4C-39C0A1417D3C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>69A728C4-1EF0-2D4C-18BC-F10399188CFE</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77FA09D0-327E-EBA4-DA09-72D2311C2F79" name="PRODUCT_PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>7E19ADAB-ED96-BEFE-26CA-32389D854549</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C51494EA-B0E9-07B2-5D83-3A5CB5959C1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

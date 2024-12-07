@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E3254DB-0138-10C9-DCB8-74DBDD850E70" name="DEPARTMENT">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>80F8FCB3-3BA8-0A57-61BA-FC630D8A3F6D</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DepartmentID" id="A2A6D9B8-FD4B-7FD6-ED9D-8C0580BC559C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>2EE9ACE4-BF75-0971-3B13-4EB4F8D9033E</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepartmentName" id="88B57CA1-AE62-0883-A184-CA3A73DB7C3D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>5F40CB69-3594-171E-4C9E-20668147B540</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4EA10E0-895B-66AC-A369-65C9E0BA89E3" name="DEPARTMENT_PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>8E987CC8-C70D-C71A-179C-14F8DBD8D326</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A6D9B8-FD4B-7FD6-ED9D-8C0580BC559C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

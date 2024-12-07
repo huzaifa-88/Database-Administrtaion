@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPARTMENT supported by EMPLOYEE" directorySegmentName="seg_0" id="0D7CDB04-8754-D2A3-30C8-20F72881457B">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 13:09:28 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<sourcePk>8E987CC8-C70D-C71A-179C-14F8DBD8D326</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>supported by</nameOnSource>
+<nameOnTarget>   </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80F8FCB3-3BA8-0A57-61BA-FC630D8A3F6D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BB2AB36-E9EB-3746-B7A4-7193CB0B6BEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

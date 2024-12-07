@@ -1,0 +1,61 @@
+EmployeeName,Address,Salary,Position,SkillName,DepartmentName
+Francoise Rautenstrauch,"2335 Canton Hwy #6, Windsor, ON N8N 3N2","36,359",process worker,Operations,operations
+"Loud, Kendra","6 Arch St #9757, Alcida, NB E8J 2C4","40,954",process worker,Operations,Ops
+"Bauswell, Lourdes","9547 Belmont Rd #21, Belleville, ON K8P 1B3","40,926",education,Operations,Training
+"Edmison, Hannah","73 Pittsford Victor Rd, Vancouver, BC V5Z 3K2","44,077",education,Operations,Training / education
+"Loeza, Tom","447 Commercial St Se, LIle-Perrot, QC J7V 4T4","43,545",safety worker,Operations,Safety
+"Kramarczyk, Queenie","47 Garfield Ave, Swift Current, SK S9H 4V2","47,833",safety worker,Operations,Safety and Maintenance
+Hui Portaro,"3 Mill Rd, Baker Brook, NB E7A 1T3","71,552",Accountant,Operations,Finance
+Josefa Opitz,"136 W Grand Ave #3, Delhi, ON N4B 1C4","105,107",Accountant,Operations,finance
+Lea Steinhaus,"80 Maplewood Dr #34, Bradford, ON L3Z 2S4","77,421",Accountant,Operations,Financial
+"Vielma, Paola","58 Hancock St, Aurora, ON L4G 2J7","115,908",Accountant,Operations,Finance
+"Bresser, Hortencia","808 Calle De Industrias, New Waterford, NS B1H 1Z4","47,153",Accounts clerk,Operations,Finance
+"Tijerina, Leanna","2859 Dorsett Rd, North York, ON M9L 2T9","64,667",Accounts clerk,Operations,finance
+"Pride, Danilo","6857 Wall St, Red Deer, AB T4R 2H5","34,736",Junior analyst,Operations,Software
+"Marcille, Huey","169 Journal Sq, Edmonton, AB T5P 1G9","36,624",junior anaylst,Operations,Software Services
+"Warne, Apolonia","3 E 31st St #77, Fredericton, NB E3G 0A3","51,681",clerk,Operations,Admiin
+Chandra Lagos,"7 N Dean St, Etobicoke, ON M8Z 3P6","62,893",Stats Clerk,Operations,Admin
+Crissy Pacholec,"85 S State St, Barrie, ON L4N 6T7","136,819",Actuary,Operations,Finance Department
+Gianna Branin,"100 Main St, Calgary, AB T2K 4X5","196,144",Actuary,Operations,Financial Department
+Valentin Billa,"6185 Bohn St #72, Pangman, SK S0C 2C0","35,944",Admin,Operations,Front desk
+Ilona Dudash,"2 Sutton Pl S #5727, Rouyn-Noranda, QC J9X 3V4","43,983",Administration,Operations,Front desk
+Willard Lablanc,"1534 Sidco Dr, Leduc, AB T9E 5A6","43,604",Administration assistant,Operations,Ops
+Lauryn Randol,"4207 Leon Rd, North Vancouver, BC V7L 3X6","45,784",Admini Assist,Operations,operations
+Laurena Begin,"7564 N Academy Ave, London, ON N6A 1S5","47,529",admin level 1,Operations,Human resources
+"Michelle, Elise","88 E Saint Elmo Rd, Hamilton, ON L8R 3J3","58,373",admin level 2,Operations,HR
+"Kardell, Corrie","75 Westchester Ave, Pierrefonds, QC H9J 1W6","54,990",Admin 3rd Level,Operations,HumanResources
+"Rabuse, Kimberely","89 W 35th St #1, Windsor, ON N8S 3R1","65,541",Admin Level 3,Operations,HR
+"Violett, Tish","1 Norris Ave #4095, Laval, QC H7W 5K7","64,863",Level 5 Admin,Operations,HR
+"Stanfield, Hollis","5174 Interstate 45 N, Yellowhead County, AB T7E 3A7","85,567",Level 5 administration,Operations,humn resource
+"Christmann, Andree","765 Rock Island Rd, Strathroy, ON N7G 3K6","42,435",clerk,Marketing,Operations
+"Fucillo, Lyla","7979 33  191, North River, NS B6L 6N1","47,179",clerk,Marketing,Ops
+"Yafuso, Felton","202 Madison Ave, Ottawa, ON K1Y 1M2","70,895",Advertising manager,Marketing,Marketing
+Dell Polino,"56 Corporate Dr, Becancour, QC G9H 1H7","104,132",Advertising manager,Marketing,Marketing and Sales
+Nohemi Leko,"37 Us Highway 12e E #6, Sault Ste. Marie, ON P6C 2C8","58,258",Media planner,Marketing,sales
+Tambra Lembke,"6734 W Jackson Blvd, Salmon Arm, BC V1E 4G9","73,201",Advertising specialist,Marketing,sales and marketing
+Vicki Maikoksoong,"7 Tomahawk Dr, Richmond, BC V7A 3N1","31,358",trainer,Marketing,Training
+Renato Airhart,"1 Vernon Blvd, Calgary, AB T2A 2H9","35,808",Training instructor,Marketing,Education & Training
+Lenita Darbro,"2726 Franklin Hill Rd, Vernon, BC V1T 7V8","75,029",engineer,Marketing,Software Department
+Barney Hagen,"6335 Fort Myer Dr, Saint-Hyacinthe, QC J2S 2N3","99,207",Engineer,Marketing,Software
+Matthew Armacost,"220 Old Us Highway 441, Peterborough, ON K9H 6C3","73,412",engineer,Marketing,Software Services
+Belen Nelton,"77 Central Pky N, Quesnel, BC V2J 1N4","133,526",Engineer,Marketing,Software
+Crissy Pacholec,"85 S State St, Barrie, ON L4N 6T7","136,819",Actuary,Marketing,Finance Department
+Gianna Branin,"100 Main St, Calgary, AB T2K 4X5","196,144",Actuary,Marketing,Financial Department
+Valentine Billa,"6185 Bohn St #72, Pangman, SK S0C 2C0","35,944",Admin,Marketing,Front desk
+Ilona Dudash,"2 Sutton Pl S #5727, Rouyn-Noranda, QC J9X 3V4","43,983",Administration,Marketing,Front desk
+Willard Lablanc,"1534 Sidco Dr, Leduc, AB T9E 5A6","43,604",Administration assistant,Marketing,Ops
+Lauryn Randol,"4207 Leon Rd, North Vancouver, BC V7L 3X6","45,784",Admini Assist,Marketing,operations
+Laurena Begin,"7564 N Academy Ave, London, ON N6A 1S5","47,529",admin level 1,Marketing,Human resources
+"Michelle, Elise","88 E Saint Elmo Rd, Hamilton, ON L8R 3J3","58,373",admin level 2,Marketing,HR
+"Kardell, Corrie","75 Westchester Ave, Pierrefonds, QC H9J 1W6","54,990",Admin 3rd Level,Marketing,HumanResources
+"Rabuse, Kimberely","89 W 35th St #1, Windsor, ON N8S 3R1","65,541",Admin Level 3,Marketing,HR
+"Violett, Tish","1 Norris Ave #4095, Laval, QC H7W 5K7","64,863",Level 5 Admin,Marketing,HR
+"Stanfield, Hollis","5174 Interstate 45 N, Yellowhead County, AB T7E 3A7","85,567",Level 5 administration,Marketing,humn resource
+Ilona Dudash,"2 Sutton Pl S #5727, Rouyn-Noranda, QC J9X 3V4","43,983",Administration,Accounting,Front desk
+Willard Lablanc,"1534 Sidco Dr, Leduc, AB T9E 5A6","43,604",Administration assistant,Accounting,Ops
+Lauryn Randol,"4207 Leon Rd, North Vancouver, BC V7L 3X6","45,784",Admini Assist,Accounting,operations
+Laurena Begin,"7564 N Academy Ave, London, ON N6A 1S5","47,529",admin level 1,Accounting,Human resources
+"Michelle, Elise","88 E Saint Elmo Rd, Hamilton, ON L8R 3J3","58,373",admin level 2,Accounting,HR
+"Kardell, Corrie","75 Westchester Ave, Pierrefonds, QC H9J 1W6","54,990",Admin 3rd Level,Accounting,HumanResources
+"Rabuse, Kimberely","89 W 35th St #1, Windsor, ON N8S 3R1","65,541",Admin Level 3,Accounting,HR
+"Violett, Tish","1 Norris Ave #4095, Laval, QC H7W 5K7","64,863",Level 5 Admin,Accounting,HR

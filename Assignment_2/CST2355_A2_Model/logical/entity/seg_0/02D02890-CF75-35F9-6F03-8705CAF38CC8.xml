@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02D02890-CF75-35F9-6F03-8705CAF38CC8" name="CUSTOMER">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:25:12 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="5C27A2DB-A696-6701-82BC-FA9E8E5F56E2">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:29:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="11AFA1BB-A09C-AAFB-511B-12FBC30C0C5E">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:29:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="E3BDABA2-FBDE-0B5A-D1B6-4FACE4795AEB">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:29:01 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Company" id="E7B42C5D-3F2C-BFC8-24A2-BC46AF481482">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:29:03 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Addresses" id="035B5AC0-1244-BC5A-421B-75FB3FA87934">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:29:03 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9A5FD80-118D-9E35-3EC1-E634579A9E29" name="CUSTOMER PK">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:37:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C27A2DB-A696-6701-82BC-FA9E8E5F56E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

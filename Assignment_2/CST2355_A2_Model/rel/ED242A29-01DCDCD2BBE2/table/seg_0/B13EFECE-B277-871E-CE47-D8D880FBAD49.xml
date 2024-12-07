@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B13EFECE-B277-871E-CE47-D8D880FBAD49" name="SKILL">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>036E35AF-2697-8054-BC96-EB709B9FF8AF</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SkillID" id="C4D1145F-CCC7-E229-464C-766942E47FF4">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>2D9E91FE-4B8A-18A3-48DC-5A60A0E759B3</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SkillLevel" id="4D66C00A-BF22-E55B-4630-DC1F27570E64">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>D9972290-C713-E712-8F84-8F9F5FB60B09</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeID" id="678BC474-1008-A65E-8231-DEF73282A73A">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>EE6CC7FA-49C8-91DC-251E-06931F37DBEE</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7793B0D6-A6D1-8BA2-3AAE-296E81AB8718" referredColumn="40FA4B85-93D7-611E-FF63-CD668AA777C4"/>
+</associations>
+</Column>
+<Column name="SkillTypeID" id="B80ED176-01E7-8C8D-3A57-9366ED81283C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:43:47 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AE20DA4-641E-0712-4EE3-5B67970AA9ED" referredColumn="EAB6B812-2193-4C68-9B17-4CE8ECE88D06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CB52693-8810-CA24-733C-00C357BBD20F" name="SKILL_PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>1E08EA9B-596D-E12A-756B-AF6DB98E6F7F</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D1145F-CCC7-E229-464C-766942E47FF4"/>
+<colUsage columnID="678BC474-1008-A65E-8231-DEF73282A73A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="737436D0-8E05-FFB6-5961-8699740F5FFD" name="SKILL_EMPLOYEE_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>6D8D9823-87F1-531D-32C8-764F6DDBEC6F</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="678BC474-1008-A65E-8231-DEF73282A73A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07553F99-FD7E-E1CC-5DDC-512C76662131" name="SKILL_SKILLTYPE_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:43:47 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80ED176-01E7-8C8D-3A57-9366ED81283C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

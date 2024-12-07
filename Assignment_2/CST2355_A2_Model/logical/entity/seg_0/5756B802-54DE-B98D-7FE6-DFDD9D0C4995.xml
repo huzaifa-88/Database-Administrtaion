@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5756B802-54DE-B98D-7FE6-DFDD9D0C4995" name="PRODUCT">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:25:27 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="785E3D8A-E9D8-AD41-D00E-7CD9E4D3338E">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:32:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductName" id="9AEFBAF4-0C25-D550-838F-8329E2A5D6ED">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:32:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ListedPrice" id="69A728C4-1EF0-2D4C-18BC-F10399188CFE">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:32:01 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E19ADAB-ED96-BEFE-26CA-32389D854549" name="PRODUCT PK">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-10-05 03:39:08 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>785E3D8A-E9D8-AD41-D00E-7CD9E4D3338E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

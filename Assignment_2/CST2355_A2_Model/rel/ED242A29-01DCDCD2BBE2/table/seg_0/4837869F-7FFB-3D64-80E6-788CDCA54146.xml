@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4837869F-7FFB-3D64-80E6-788CDCA54146" name="ADDRESS">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:25:20 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AddressID" id="38AF3D9A-072A-F8E3-6A7D-CA48700F8619">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="3BF5CC3C-3375-302E-6574-C5F2852FC384">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="6DDE88CC-E033-FDFA-6BEB-2BB53477E85A">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="11927C6A-CB9D-79AE-91F7-1933350D80B6">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="3B16A76F-BF4F-3997-69A0-819E19E3A063">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmployeeID" id="75FDC771-735B-49CE-AEDE-245C9B95A5CB">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:32:30 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82D8985-13D8-3DF7-9B27-EDF082E07532" referredColumn="40FA4B85-93D7-611E-FF63-CD668AA777C4"/>
+</associations>
+</Column>
+<Column name="CustomerID" id="7A2115B2-ECEB-CB36-350A-0BD7060F7AC4">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:36:29 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E26883F5-60D6-A558-C718-B487E3ACD70B" referredColumn="5A4419DF-ACFE-FA3C-FEDA-544022DA92D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6C51489-7A08-EC96-482F-DEDD5D3D8A2B" name="ADDRESS_PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:28:00 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38AF3D9A-072A-F8E3-6A7D-CA48700F8619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75265760-38D3-B8F4-9029-616ED6A991A1" name="ADDRESS_EMPLOYEE_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:32:30 UTC</createdTime>
+<generatorID>21B015EF-B512-B5AE-A2C6-151926FC3DB0</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FDC771-735B-49CE-AEDE-245C9B95A5CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C12F26C5-B75C-B309-69AD-19164162CB4B" name="ADDRESS_CUSTOMER_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:36:29 UTC</createdTime>
+<generatorID>F9A5FD80-118D-9E35-3EC1-E634579A9E29</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A2115B2-ECEB-CB36-350A-0BD7060F7AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

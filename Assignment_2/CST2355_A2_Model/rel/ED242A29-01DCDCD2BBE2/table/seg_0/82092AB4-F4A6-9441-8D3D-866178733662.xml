@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82092AB4-F4A6-9441-8D3D-866178733662" name="PURCHASE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>EB3551D6-A660-676F-8B62-879C2857F906</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PurchaseID" id="5FCD2447-B197-3E8C-EC0E-8232789D2F70">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>0768E095-B664-434E-659F-DDCFEDAA6E0E</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchaseDate" id="AEB2ECB1-6A37-24EC-8A4A-BEF6E6B9B125">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>D3C22AA4-1F51-9864-C5BA-BCC032389A7D</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>6C8DBC5E-1DCD-E73F-3D4B-C99F6FDDE3B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchasePrice" id="A13020E9-7C38-4CB2-B891-9E2EFE1F9C4D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>BED0655A-9876-6D6D-30CE-CA45596B45AD</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryDate" id="757C13D1-0823-23B8-8D30-D6BA577F9EBD">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>DA247EFD-F771-AEC3-6EEE-C3CCE970D2DF</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerID" id="179562DA-EDC0-82C8-48CE-185D179BE1AB">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>39E1E7F9-ECC3-9249-18E7-0C2F308BE7F5</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38770592-8DF7-AD94-0B7E-41DAC780CB46" referredColumn="5A4419DF-ACFE-FA3C-FEDA-544022DA92D4"/>
+</associations>
+</Column>
+<Column name="ProductID" id="171A192D-1B4B-579D-0A01-3E7367C0FB0E">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>E3D07689-E0A2-968D-8CDD-4D7645F26865</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="041FECF5-FDBF-3413-32EB-1C226E172F22" referredColumn="C51494EA-B0E9-07B2-5D83-3A5CB5959C1B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32ECCBE8-049C-676C-697C-19F478BD4B93" name="PURCHASE_PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>A53620CF-8830-D9D0-6D0C-FD8EEF4B49F7</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FCD2447-B197-3E8C-EC0E-8232789D2F70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B776D38-7E2E-F578-24F3-09F25F8E2662" name="PURCHASE_CUSTOMER_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>399F985F-F31B-C77B-621B-793CE309C4E2</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="179562DA-EDC0-82C8-48CE-185D179BE1AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="146C00CC-27C8-D55F-DD1E-36CD0DD9954B" name="PURCHASE_PRODUCT_FK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 14:21:02 UTC</createdTime>
+<generatorID>9397D033-23C2-0AB2-AE93-6C30957673E4</generatorID>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="171A192D-1B4B-579D-0A01-3E7367C0FB0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

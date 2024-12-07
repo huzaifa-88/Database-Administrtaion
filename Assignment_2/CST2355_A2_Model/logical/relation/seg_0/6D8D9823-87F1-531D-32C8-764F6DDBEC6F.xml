@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLOYEE upgrades SKILL" directorySegmentName="seg_0" id="6D8D9823-87F1-531D-32C8-764F6DDBEC6F">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-25 13:17:40 UTC</createdTime>
+<ownerDesignName>CST2355_A2_Model</ownerDesignName>
+<engineerTo>
+<item key="ED242A29-C2B7-A60A-EC6F-01DCDCD2BBE2" value="true"/>
+</engineerTo>
+<sourcePk>21B015EF-B512-B5AE-A2C6-151926FC3DB0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BB2AB36-E9EB-3746-B7A4-7193CB0B6BEB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>036E35AF-2697-8054-BC96-EB709B9FF8AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

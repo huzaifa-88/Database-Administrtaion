@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CST2355_A2_Model" id="E2E376D1-43A6-B4EC-31F2-138AC6F919BC" version="3.5">
+<createdBy>cpehu</createdBy>
+<createdTime>2023-09-27 01:51:56 UTC</createdTime>
+<ownerDesignName>Models</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E2E376D1-43A6-B4EC-31F2-138AC6F919BC</designId>
+</OSDM_Design>
