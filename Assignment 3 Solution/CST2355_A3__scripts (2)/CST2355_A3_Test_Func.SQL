@@ -1,0 +1,4 @@
+UPDATE GRADE SET LetterGrade = 'F';
+SELECT * FROM GRADE;
+
+SET LONG 80
