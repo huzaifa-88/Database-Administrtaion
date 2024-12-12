@@ -9,7 +9,7 @@
 <referredTableID>0F9AD131-95AB-F98A-2485-638855BE51A0</referredTableID>
 <keyObject>2AA4DA07-DD71-77A1-C62C-AAC883BCD050</keyObject>
 <referredKeyID>2AA4DA07-DD71-77A1-C62C-AAC883BCD050</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>FeeTypeID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

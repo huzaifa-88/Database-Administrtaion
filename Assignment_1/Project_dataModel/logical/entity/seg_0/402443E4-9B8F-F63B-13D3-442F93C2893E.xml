@@ -89,6 +89,7 @@
 <engineerTo>
 <item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>F5F69B7D-9A09-C576-24DF-CA0A6DF6AF15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -103,6 +104,7 @@
 <engineerTo>
 <item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>B8CD606A-4009-0D3F-E224-D34545A89CAD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -118,12 +120,13 @@
 <engineerTo>
 <item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>6646CC35-5410-ECB8-FCD1-79AAD0EEC7E7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -136,12 +139,9 @@
 <item key="6C339627-7CDB-5A40-1C12-20A2A316CC0B" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5,0F98004F-76A8-EA88-4B7A-54E9262D7423,39EBF691-C5E6-50EA-1045-148D72D5F694,EFFC1C77-1494-D174-E0EF-0C42A81EF849</newElementsIDs>
+<newElementsIDs>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5</newElementsIDs>
 <usedAttributes>
 <attributeRef>D38396C9-3B9E-21F9-6B5F-44CCC01E81B5</attributeRef>
-<attributeRef>807D7DC3-37A0-723B-0414-E968A87246FB</attributeRef>
-<attributeRef>617456EA-5F95-BF2C-2CC3-DE8552664D6F</attributeRef>
-<attributeRef>E5F621A6-11AC-431E-F3DE-75F2FECFEA7D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

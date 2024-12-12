@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Project_dataModel" id="347F201D-4382-8F64-C5F9-19CD04669547" version="3.5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-11-13 15:11:41 UTC</createdTime>
+<ownerDesignName>Project_dataModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>347F201D-4382-8F64-C5F9-19CD04669547</designId>
+</OSDM_Design>

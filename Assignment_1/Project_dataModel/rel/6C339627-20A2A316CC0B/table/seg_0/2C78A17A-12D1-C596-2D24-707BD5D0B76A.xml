@@ -129,30 +129,6 @@
 <colAssociation fkAssociation="7CC355C7-42B2-C9B3-57C1-E80FCF83E66F" referredColumn="7A6F2209-5952-97C4-408D-04070F53F4D8"/>
 </associations>
 </Column>
-<Column name="GuestID" id="47091A9F-16BC-FED7-79EB-9994D41749A0">
-<createdBy>PMYLS</createdBy>
-<createdTime>2024-11-15 07:07:27 UTC</createdTime>
-<generatorID>C64D24FF-6EF0-21D6-C810-921A61B0C816</generatorID>
-<ownerDesignName>Project_dataModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FeeTypeID" id="8E95B4DE-07BB-E67B-97B0-1B35E1E078FB">
-<createdBy>PMYLS</createdBy>
-<createdTime>2024-11-15 07:07:27 UTC</createdTime>
-<generatorID>8FF1823B-E5A7-3F0E-FA21-3BDCBA97A28E</generatorID>
-<ownerDesignName>Project_dataModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E81A6BB6-E010-37C2-00E9-307A21F728E0" name="EmployeePK">
