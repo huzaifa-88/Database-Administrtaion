@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="577E2289-CB4A-E56E-8F8F-53990FE5E38B" name="Customer">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="6CE3B0BA-56E6-2D8E-59FA-AE5C77476EE6">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>7085E3DF-F594-B3F2-9FAF-6060A5A4E1D4</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="2242DEE0-BAE7-E535-CB4D-75254F22CBF5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>D5130C97-444E-2146-E0F4-C295DCBB0A94</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Addresses" id="CD633554-A213-CE87-0E38-64D1666C08B2">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>DA7C8635-68D1-A8F7-A653-F4B88C12D63A</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE06C7F9-1E4C-2B46-1E20-D614F8F65B79" name="Customer PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CE3B0BA-56E6-2D8E-59FA-AE5C77476EE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

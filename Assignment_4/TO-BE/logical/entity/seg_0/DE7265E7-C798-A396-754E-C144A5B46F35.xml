@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE7265E7-C798-A396-754E-C144A5B46F35" name="Purchase">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PurchaseID" id="4867BB05-9619-D1F3-26A3-0335C4C6EE33">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<importedID>BBF638CE-3A70-92D7-03B0-929A78C18CC8</importedID>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="AF1E65A4-1D34-6310-43C1-5C952223D7A0">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<generatorID>14348DED-1081-9A3D-02EE-1A023C81199A</generatorID>
+<ownerDesignName>TO-BE</ownerDesignName>
+<importedID>4C9F142F-CE6A-F92F-6E65-522A3CD00DE6</importedID>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<referedAttribute>D3264780-60ED-6BDF-4A8E-304A171B2BE8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="97BD4DF5-E7A2-626D-58B4-D25BC3934E8C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<generatorID>9A832AF0-CF16-91E8-5855-DEE916C55706</generatorID>
+<ownerDesignName>TO-BE</ownerDesignName>
+<importedID>411E9331-9F67-2F17-90B6-97C324370564</importedID>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<referedAttribute>6B2C2CDB-BEBD-73C1-4C72-B2A90F32C271</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PurchasePrice" id="F27BD708-4549-4465-82C7-C74143009B4C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<importedID>B94D9893-A523-3D2B-07E7-66BEE1CD5125</importedID>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PurchaseDate" id="AF7CED67-F2C4-8EC1-BAE9-E25DCAD6BC9C">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<importedID>CB2AE05D-37AA-7A3A-4F2E-5C01762CF382</importedID>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17294A23-2DA1-232F-AF12-AB323366C041" name="Purchase PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4867BB05-9619-D1F3-26A3-0335C4C6EE33</attributeRef>
+<attributeRef>97BD4DF5-E7A2-626D-58B4-D25BC3934E8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

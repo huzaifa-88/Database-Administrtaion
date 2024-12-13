@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87855A78-7F22-CD80-1576-B1B3F6E45F80" name="Employee">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EmployeeID" id="4EA2CA2F-94F6-7678-4754-93E8B82ABEDC">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>C9230DC3-76A7-F36D-1A2C-59549234BFD5</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID1" id="DA35D837-EC07-96DA-3E1C-548C710CF556">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>7B8E41AC-67C5-FAF9-DA13-DA86CF25E14F</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>4AB65E03-FDCF-2B43-465B-55C717FAF683</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>4EA2CA2F-94F6-7678-4754-93E8B82ABEDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Addresses" id="15632127-9872-1711-404A-F925304DD7CD">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>73B053F9-5670-23A8-45D8-DB05933E1E17</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D835ED61-104E-9323-BAF3-D35ACECE3D44" name="Employee PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EA2CA2F-94F6-7678-4754-93E8B82ABEDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

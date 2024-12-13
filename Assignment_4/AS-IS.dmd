@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AS-IS" id="9E9233D3-84E9-FEE2-B83E-035E93C0B674" version="3.5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:45:44 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9E9233D3-84E9-FEE2-B83E-035E93C0B674</designId>
+</OSDM_Design>

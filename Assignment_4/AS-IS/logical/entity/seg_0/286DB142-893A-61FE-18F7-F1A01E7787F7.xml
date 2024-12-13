@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="286DB142-893A-61FE-18F7-F1A01E7787F7" name="Product">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="E0C0B680-06BD-0FF5-B4F9-9C0E4ADC2FFE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>E7B959A7-020A-32BC-C8FA-3FABE965DF20</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PurchaseID" id="12C9A34C-B692-8C3A-4EB3-30336742E456">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>1310720C-5A61-53A7-2560-F9BBCAB82220</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>03800570-DB7B-C164-AA7B-887AAC35674A</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>492E9594-11AF-3E73-C7C8-48F9835A86B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VendorID" id="41C199BA-7901-386B-FA87-A35513DC3FE2">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>4E78B927-E58F-CBBB-EE44-81BF1338EE60</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>4F60D121-D292-C93B-1DAF-83C10FC6A8F0</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>D45CF5C0-1825-C2B2-74FB-CCE447920CEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="6E7F0E5C-D7F6-97C5-E6C9-83C372780877">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>1310720C-5A61-53A7-2560-F9BBCAB82220</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>550D1BA7-BFBF-8250-A894-25625BB58E02</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>5661ECB6-FF5A-BBAB-6B76-1093BB17FF19</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductName" id="207934C3-4C3D-8F26-01E3-CB39D0B4413D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>1D0B8127-D20B-7667-BC1C-C0C512FB369F</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PricePerUnit" id="6791B096-34BA-7E7B-C2D6-85657BB4F5CA">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>20E0F9CE-4848-B327-49A8-934CBF3880D1</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentID" id="EE009662-5DC3-EE39-AFDE-38A5A5F219D9">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>4E78B927-E58F-CBBB-EE44-81BF1338EE60</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>B86FBF8B-3B0A-329E-47A4-4C53E7B90822</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>FB3F5A8A-FE9A-92A4-0C08-8A3EB0131144</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="BDABC9DA-B2C6-B0CE-52D8-E86B18D25875">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>4E78B927-E58F-CBBB-EE44-81BF1338EE60</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>0F143CA0-7D3E-6391-4FA4-CEB1F855E7B9</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>4011BA93-C24B-AEB0-6098-E485EC9FE247</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF9902F4-5855-9436-736D-FE91165D8894" name="Product PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0C0B680-06BD-0FF5-B4F9-9C0E4ADC2FFE</attributeRef>
+<attributeRef>12C9A34C-B692-8C3A-4EB3-30336742E456</attributeRef>
+<attributeRef>6E7F0E5C-D7F6-97C5-E6C9-83C372780877</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TO-BE" id="AD5C696E-0022-32E0-8FD8-25D03A959958" version="3.5">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:14:50 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AD5C696E-0022-32E0-8FD8-25D03A959958</designId>
+</OSDM_Design>

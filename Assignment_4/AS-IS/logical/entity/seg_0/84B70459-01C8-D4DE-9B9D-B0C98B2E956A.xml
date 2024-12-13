@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84B70459-01C8-D4DE-9B9D-B0C98B2E956A" name="Wage">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WageID" id="C5B037CE-BFDF-3D74-BE34-B7F7B511329D">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>47A07A56-453F-6985-59F5-924403A40C42</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmployeeID" id="E43E9CFA-64DB-0223-B46D-1559C50D1F21">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<generatorID>719C15DA-583C-FD2D-F894-2D70EA2FB474</generatorID>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>DF69E6A2-8575-A721-0AD1-0BCDF4B3EDD8</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<referedAttribute>4EA2CA2F-94F6-7678-4754-93E8B82ABEDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WageAmount" id="6211B1B3-4613-FBEE-C906-8C19972E9BFE">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<importedID>BCFAAC58-89B5-D476-B2F9-407B57A6FB2A</importedID>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0081FD96-5795-FEBA-34CA-B90B960D1F76" name="Wage PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5B037CE-BFDF-3D74-BE34-B7F7B511329D</attributeRef>
+<attributeRef>E43E9CFA-64DB-0223-B46D-1559C50D1F21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CBDF47D-A6D3-04F8-D261-8C8F3CE693FD" name="MarketingDepartment">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:26:51 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A95A0358-8EA6-4842-DC2B-846A973B1DF8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PriceRenegotiationID" id="33BFA5A9-1BB0-AEDF-FAED-B73DACBCF8BB">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:36:11 UTC</createdTime>
+<generatorID>1FE847B1-5858-B73B-1A67-C28D5FD0F065</generatorID>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<referedAttribute>1F7C75B2-98C8-4116-1ABC-2C18709591D1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B21AE5CD-DB27-CE7A-6630-88E6FF039B10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3387AC5A-F44F-C0ED-32BC-5D6B89FA7E74" name="MarketingDepartment PK">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:36:08 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33BFA5A9-1BB0-AEDF-FAED-B73DACBCF8BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

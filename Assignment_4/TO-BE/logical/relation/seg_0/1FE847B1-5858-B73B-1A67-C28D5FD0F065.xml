@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PriceRenegotiation_MarketingDepartment" directorySegmentName="seg_0" id="1FE847B1-5858-B73B-1A67-C28D5FD0F065">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:28:38 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<sourcePk>BD99AD22-F881-B998-31AE-4B109ECA6162</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>initiated by</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C28345DB-72B9-FE66-7D1C-D9D90237C009</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8CBDF47D-A6D3-04F8-D261-8C8F3CE693FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

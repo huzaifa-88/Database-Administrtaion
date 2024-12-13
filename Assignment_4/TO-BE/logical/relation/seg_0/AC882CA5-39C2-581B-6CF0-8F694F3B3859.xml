@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PriceRenego_Product" directorySegmentName="seg_0" id="AC882CA5-39C2-581B-6CF0-8F694F3B3859">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:30:38 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<sourcePk>BD99AD22-F881-B998-31AE-4B109ECA6162</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>involves assessment of</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C28345DB-72B9-FE66-7D1C-D9D90237C009</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>92FB2428-CE62-F1A8-B74D-A7CFF008442B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Purchase_Producr" directorySegmentName="seg_0" id="1310720C-5A61-53A7-2560-F9BBCAB82220">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-13 12:48:37 UTC</createdTime>
+<ownerDesignName>AS-IS</ownerDesignName>
+<engineerTo>
+<item key="1790E307-A10F-3762-7318-3479DBF9DBE8" value="true"/>
+</engineerTo>
+<sourcePk>E893E807-B3B5-DC35-7B0C-A363554D4007</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>includes</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>386CBA9F-9148-5B17-4CDF-6575E32C564F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>286DB142-893A-61FE-18F7-F1A01E7787F7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

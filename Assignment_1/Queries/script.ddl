@@ -1,0 +1,49 @@
+-- My Script
+
+DROP TABLE FEE CASCADE CONSTRAINTS;
+DROP TABLE GUEST CASCADE CONSTRAINTS;
+DROP TABLE FEE_TYPE CASCADE CONSTRAINTS;
+DROP TABLE EMPLOYEE CASCADE CONSTRAINTS;
+
+CREATE TABLE FEE_TYPE (
+    FeeTypeID Number(10) GENERATED AS Identity,
+    FeeTypeName     VARCHAR2(30),
+    DefaultAmount   NUMBER(6, 2),
+    CONSTRAINT FeeTypePK PRIMARY KEY (FeeTypeID)
+);
+
+CREATE TABLE GUEST (
+    GuestId   NUMBER(10) GENERATED AS IDENTITY,
+    FirstName VARCHAR2(30) NOT NULL,
+    LastName  VARCHAR2(30),
+    City      VARCHAR2(40),
+    Province  CHAR(2),
+    CONSTRAINT GuestPK PRIMARY KEY (GuestId)
+);
+CREATE TABLE EMPLOYEE (
+    EmployeeId NUMBER(10) GENERATED AS IDENTITY,
+    FirstName  VARCHAR2(30),
+    LastName   VARCHAR2(30),
+    Title      VARCHAR2(30),
+    City       VARCHAR2(40),
+    Province   CHAR(2),
+    Wage       NUMBER(8, 2),
+    WageType   VARCHAR2(10),
+    ManagerID  NUMBER(10),
+    CONSTRAINT EmployeePK PRIMARY KEY (EmployeeID),
+    CONSTRAINT ManagerFK FOREIGN KEY(ManagerID) REFERENCES Employee(EmployeeID)
+);
+CREATE TABLE FEE (
+    FeeID               NUMBER(10)  GENERATED AS IDENTITY,
+    FeeName             VARCHAR2(30) NOT NULL,
+    FeeDescription      VARCHAR2(300),
+    DateCharged         DATE,
+    FeeCharged          NUMBER(6, 2),
+    GuestID             NUMBER(10),
+    FeeTypeID           NUMBER(10),
+    EmployeeID          NUMERIC(10),
+    CONSTRAINT FeePK PRIMARY KEY (FeeID),
+    CONSTRAINT Fee_FeeTypeFK FOREIGN KEY (FeeTypeID) REFERENCES FEE_TYPE(FeeTypeID),
+    CONSTRAINT FeeGuestFK FOREIGN KEY (GuestID) REFERENCES GUEST(GuestID),
+    CONSTRAINT FeeEmployeeFK FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEE(EmployeeID)
+);

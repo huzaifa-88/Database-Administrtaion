@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Employee_Payment" directorySegmentName="seg_0" id="DCFEADB7-80A6-3B1D-0FB0-2E0CF2E59316">
+<createdBy>PMYLS</createdBy>
+<createdTime>2024-12-12 23:17:00 UTC</createdTime>
+<ownerDesignName>TO-BE</ownerDesignName>
+<engineerTo>
+<item key="323357D9-A581-CAD2-8D2D-D963A5AE2252" value="true"/>
+</engineerTo>
+<sourcePk>D2186A6C-D42B-7C0C-0565-773E0343752D</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>submits</nameOnSource>
+<nameOnTarget>  </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22309F55-20CD-5046-0C3C-D01CB3F8E4B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>27752470-0E68-EF5E-1B5F-0203C9A8D26E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
